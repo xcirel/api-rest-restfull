@@ -8,6 +8,9 @@ yarn add express
 node server.js
 ```
 
+Utilizei o [Insomnia](https://insomnia.rest/)
+
+
 # API, REST e RESTFUL
 Cliente (client - browser, smartphone...)
 Garçon (pedido, levar seus pedidos, para a cozinha) (API)
