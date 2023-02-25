@@ -1,0 +1,41 @@
+# API, REST e RESTFUL
+
+Cliente (client - browser, smartphone...)
+Garçon (pedido, levar seus pedidos, para a cozinha) (API)
+Cozinha (Server)
+
+## API
+ - Acronimo de Application Programming Interface (Interface de Programação de Aplicações) é basicamente um conjunto de rotinas e padrões estabelecidos por uma aplicação, para que outras aplicações possam utilizar as funcionalidade desta aplicação.
+
+- Responsável por estabelecer comunicação entre diferentes serviços.
+- Meio de campo entre as tecnologias.
+- Intermediador para troca de informações.
+
+
+## REST - determina algumas obrigações na transferência de dados
+
+Acrônimo para Representational State transfer (Transferência de Estado Representativo).
+
+Será feita a transferência de dados de uma maneira simbólica, figurativa, representativa, de maneira didática.
+
+A transferência de dados, geralmente usando o protocolo HTTP.
+
+O REST delimita algumas obrigações nessas transferências de dados.
+
+Resources seria então, uma entidade, um objeto.
+
+
+### 6 NESSECIDADES (constraints) para ser RESTful
+
+- _Client-server_: Separação do cliente e do armazenamento de dados (servidor), dessa forma, poderemos ter uma portabilidade do nosso sistema, usando o React para WEB e React Native para o smartphone, por exemplo.
+
+- _Stateless_: Cada requisição que o cliente faz para o servidor, deverá conter todas as informações necessárias para o servidor entender e responder (RESPONSE) a requisição (REQUEST). Exemplo: A sessão do usuário deverá ser enviada em todas as requisições, para saber se aquele usuário está autenticando e apto a usar os serviços, e o servidor não pode lembrar que o cliente doi autenticado na requisição anterior. Nos nossos cursos, temos por padrão usar tokens para as comunicações.
+
+- _Cacheable_: As respostas para uma requisição deverão ser explicitas ao dizer se aquela requisição, pode ou não ser cacheada pelo cliente.
+
+- 
+
+
+## RESTFUL
+
+RESTful, é a aplicação dos padrões REST.
