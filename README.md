@@ -5,7 +5,7 @@ Garçon (pedido, levar seus pedidos, para a cozinha) (API)
 Cozinha (Server)
 
 ## API
- - Acronimo de Application Programming Interface (Interface de Programação de Aplicações) é basicamente um conjunto de rotinas e padrões estabelecidos por uma aplicação, para que outras aplicações possam utilizar as funcionalidade desta aplicação.
+Acrônimo de Application Programming Interface (Interface de Programação de Aplicações) é basicamente um conjunto de rotinas e padrões estabelecidos por uma aplicação, para que outras aplicações possam utilizar as funcionalidade desta aplicação.
 
 - Responsável por estabelecer comunicação entre diferentes serviços.
 - Meio de campo entre as tecnologias.
