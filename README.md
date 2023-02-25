@@ -33,9 +33,21 @@ Resources seria então, uma entidade, um objeto.
 
 - _Cacheable_: As respostas para uma requisição deverão ser explicitas ao dizer se aquela requisição, pode ou não ser cacheada pelo cliente.
 
-- 
+- _Layered System_: O cliente acessa a um endpoint sem precisar saber da complexidade, de quais passos estão sendo ncessários para o servidor responder a requisição ou quais outras camadas o servidor estará lidando para que a requisição seja respondida.
 
+- _Code on demand (optional)_: Dá a possibilidade da nossa aplicação pegar códigos como o javascript, por exemplo, e executar no cliente.
 
 ## RESTFUL
 
 RESTful, é a aplicação dos padrões REST.
+
+## BOAS PRÁTICAS
+
+- Utilizar verbos HTTP para nossas requisições.
+
+### VERBOS HTTP
+
+- GET: Receber dados de um Resource.
+- POST: Enviar dados ou informações para serem processados por um Resource.
+- PUT: Atualizar os dados de um Resource.
+- DELETE: Deletar um Resource.
