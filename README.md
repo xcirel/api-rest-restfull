@@ -44,6 +44,9 @@ RESTful, é a aplicação dos padrões REST.
 ## BOAS PRÁTICAS
 
 - Utilizar verbos HTTP para nossas requisições.
+- Utilizar plural ou singular na criação de endpoints? _NÃO IMPORTA!_ use um padrão!!!
+- Não deixar barra no final do endpoint.
+- Nunca deixe o cliente sem resposta!
 
 ### VERBOS HTTP
 
@@ -51,3 +54,18 @@ RESTful, é a aplicação dos padrões REST.
 - POST: Enviar dados ou informações para serem processados por um Resource.
 - PUT: Atualizar os dados de um Resource.
 - DELETE: Deletar um Resource.
+
+### STATUS DAS RESPOSTAS
+
+- 1xx: Informação
+- 2xx: Sucesso
+  - 200: OK
+  - 201: CREATED
+  - 204: Não tem conteúdo PUT POST DELETE
+- 3xx: Redirection
+- 4xx: Client Error
+  - 400: Bad Request
+  - 404: Not Found!
+- 5xx: Server Error
+  - 500: Internal Server Error
+  
