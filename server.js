@@ -41,7 +41,13 @@ app.put("/clients/:id", function(req, res){
 });
 
 
-app.delete("/clients/:id", function(req, res){});
+app.delete("/clients/:id", function(req, res){
+  const { id } = req.params;
+  const clientsFiltered = data.filter(client => client.id != id )
+
+  res.json(clientsFiltered);
+
+});
 
 
 app.listen(3000, function() {
